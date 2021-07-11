@@ -27,7 +27,7 @@ video {
 
 
 .overlay {
-  min-height: 150vh;
+  min-height: 160vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
