@@ -26,7 +26,7 @@ video {
 
 
 .overlay {
-  min-height: 100vh;
+  min-height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,15 +43,14 @@ video {
 .overlay input{
 	display: flex;
 	justify-content: center;
-    margin-top: -140px;
-   position: relative;
+    margin-top: -100px;
+    position: relative;
     mix-blend-mode: darken;
     text-align: center;
     font-size: 30px;
     font-weight: 500;
     align-items: center;
 	color: white;
-
 }
 
 .input-search{
@@ -65,7 +64,7 @@ video {
 	font-family: 'Mate SC', serif;
 	border: 2px black;
 	font-weight: 700;
-    margin-bottom: -100PX;
+    position: absolute;
     
 	/*transition: 0.2s ease-out;*/
 }
@@ -103,8 +102,7 @@ h1{
 
 .location-city{
 	font-size: 50px;
-	margin-top: 220px;
-   
+	margin-top: -200px;
 }
 .location-date{
 	font-size: 30px;
@@ -132,7 +130,7 @@ span{
 
 .box {
     position: absolute;
-    top: 240px;
+    top: 450px;
     left: 50%;
     transform: translate(-50%, -50%);
     mix-blend-mode: darken;
@@ -151,4 +149,50 @@ span{
     letter-spacing: 1px;
     text-align: center;
 	mix-blend-mode: overlay;
+    margin-top: 170px;
 }
+
+
+
+@media only screen and (max-width: 1025px) { 
+  
+    .location-city{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .location-date{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .temperature-temp{
+        font-size: 65px;
+        font-weight: bold;
+        color: darkblue;
+    }
+    span{
+        font-weight: 500;
+    }
+    .temperature-type{
+        font-size: 40px;
+        font-weight: 600;
+        
+       
+    }
+    .temperature-range{
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .box {
+        position: absolute;
+        top: 350px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        mix-blend-mode: darken;
+        font-family: 'Mate SC', serif;
+        text-align: center; 
+    }
+}
+
+
