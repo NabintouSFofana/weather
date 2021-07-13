@@ -43,7 +43,7 @@ video {
 .overlay input{
 	display: flex;
 	justify-content: center;
-    margin-top: -100px;
+    margin-bottom: 400px;
     position: relative;
     mix-blend-mode: darken;
     text-align: center;
@@ -102,7 +102,7 @@ h1{
 
 .location-city{
 	font-size: 50px;
-	margin-top: -200px;
+	
 }
 .location-date{
 	font-size: 30px;
